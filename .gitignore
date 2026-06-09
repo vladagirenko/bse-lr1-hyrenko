@@ -1,0 +1,24 @@
+# Каші та скомпільовані файли Python (Byte-code)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Віртуальні середовища (Virtual Environments)
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Налаштування IDE (VS Code, PyCharm тощо)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Логи та тимчасові файли
+*.log
+__pypackages__/
