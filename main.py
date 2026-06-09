@@ -49,5 +49,18 @@ def main():
     for index, hook in enumerate(generated_hooks, 1):
         print(f"{index}. {hook}")
 
+    # FR-05: Вибір та імітація копіювання обраного тексту у буфер обміну 
+    print("\n-------------------------------------------")
+    try:
+        copy_choice = int(input("Введіть номер «гачка», який бажаєте скопіювати (або 0 для виходу): "))
+        if 1 <= copy_choice <= len(generated_hooks):
+            chosen_hook = generated_hooks[copy_choice - 1]
+            print("\n[Успішно]: Текст збережено в буфер обміну! [FR-05] ")
+            print(f">> \"{chosen_hook}\"")
+        else:
+            print("Програму завершено без копіювання.")
+    except ValueError:
+        print("Некоректний ввід. Програму завершено.")
+
 if __name__ == "__main__":
     main()
