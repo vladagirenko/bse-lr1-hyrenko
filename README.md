@@ -1,6 +1,6 @@
 # HookCraft - AI-сервіс для створення «гачків» для контенту
 
-[cite_start]HookCraft — це веб-сервіс на основі штучного інтелекту, який допомагає контент-мейкерам, блогерам та SMM-менеджерам швидко створювати цікаві перші речення («гачки») для постів, відео та реклами[cite: 1, 4, 7].
+HookCraft — це веб-сервіс на основі штучного інтелекту, який допомагає контент-мейкерам, блогерам та SMM-менеджерам швидко створювати цікаві перші речення («гачки») для постів, відео та реклами.
 
 ## Автор
 
@@ -17,7 +17,7 @@
 ## Встановлення та запуск
 
 ```bash
-git clone [https://github.com/vladahyr/bse-lr1-hyrenko.git](https://github.com/vladahyr/bse-lr1-hyrenko.git)
+git clone [https://github.com/vladagirenko/bse-lr1-hyrenko.git](https://github.com/vladagirenko/bse-lr1-hyrenko.git)
 cd bse-lr1-hyrenko
 python main.py
 ```
